@@ -13,16 +13,20 @@ Small guides on how to install each component
 ### Fastfetch
 
 Step 1: Install fastfetch with
-```sudo pacman -S fastfetch``` 
+```bash
+sudo pacman -S fastfetch
+``` 
 
-Step 2: Create a config folder
-```fastfetch --gen-config```
+Step 2: Create a config folder with
+```bash
+fastfetch --gen-config
+```
 
-Step 2: replace the auto generated config file to the correct config file.
+Step 3: replace the auto generated config file to the correct config file.
 ```bash
 #Make sure you are in the same directory as the new config file
 sudo mv config.jsonc  ~/.config/fastfetch/config.jsonc
 ```
 
-Step 3: add a logo and configure path
+Step 4: add a logo and configure path in the config file 
 (you got this)
