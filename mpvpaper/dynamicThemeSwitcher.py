@@ -68,7 +68,7 @@ def captureImage():
 def decideTheme(lightAverage):
     # Yes i realise now how fucking stupid this function is
     # This function only exists to make it easier for people to add more color profiles
-    if lightAverage > 75: # Change light threshold here
+    if lightAverage > brightnessThresshold: # Change light threshold here
         setLightMode()
         global lightMode 
         lightMode = True
